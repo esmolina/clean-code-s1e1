@@ -4,6 +4,15 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+.topic {
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid #333;
+    padding: 30px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+  }
 
 /* HEADER */
 .header {
@@ -45,6 +54,7 @@
   width: 318px;
 }
 
+/* MAIN-TODO */
 
 .task {
   width: 56%;
@@ -98,15 +108,6 @@
   color: #3a3a3a;
 }
 /* Heading */
-.topic {
-  color: #333;
-  font-weight: 700;
-  font-size: 15px;
-  border-bottom: 2px solid #333;
-  padding: 30px 0 10px;
-  margin: 0;
-  text-transform: uppercase;
-}
 
 .input_text {
   margin: 0;

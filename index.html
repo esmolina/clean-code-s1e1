@@ -17,12 +17,14 @@
       <h3 class="add-section__label topic">
         Add Item
       </h3>
-      <label class="task-row-wrapper">
-        <input id="new-task" class="add-section__input task input input_text" type="text">
-        <button class="button">
-          Add
-        </button>
-      </label>
+      <form action="" class="add-form">
+        <label class="task-row-wrapper">
+          <input id="new-task" class="add-section__input task input input_text" type="text">
+          <button class="button">
+            Add
+          </button>
+        </label>
+      </form>
     </section>
 
     <section class="todo-section">
@@ -31,30 +33,34 @@
       </h3>
       <ul id="incompleteTasks" class="list">
         <li class="list__item">
-          <input class="input input_checkbox" type="checkbox">
-          <label class="task list__label">
-            Pay Bills
-          </label>
-          <input type="text" class="task input input_text list-input_text">
-          <button class="edit button">
-            Edit
-          </button>
-          <button class="delete button">
-            <img class="button_delete" src="./remove.svg">
-          </button>
+          <form class="todo-list-item-form">
+            <input class="input input_checkbox" type="checkbox">
+            <label class="task list__label">
+              Pay Bills
+            </label>
+            <input type="text" class="task input input_text list-input_text">
+            <button class="edit button">
+              Edit
+            </button>
+            <button class="delete button">
+              <img class="button_delete" src="./remove.svg">
+            </button>
+          </form>
         </li>
         <li class="editMode list__item">
-          <input class="input input_checkbox" type="checkbox">
-          <label class="task list__label">
-            Go Shopping
-          </label>
-          <input type="text" value="Go Shopping" class="task input input_text list-input_text">
-          <button class="edit button">
-            Save
-          </button>
-          <button class="delete button">
-            <img class="button_delete" src="./remove.svg">
-          </button>
+          <form class="todo-list-item-form">
+            <input class="input input_checkbox" type="checkbox">
+            <label class="task list__label">
+              Go Shopping
+            </label>
+            <input type="text" value="Go Shopping" class="task input input_text list-input_text">
+            <button class="edit button">
+              Save
+            </button>
+            <button class="delete button">
+              <img class="button_delete" src="./remove.svg">
+            </button>
+          </form>
         </li>
       </ul>
     </section>
@@ -64,17 +70,19 @@
       </h3>
       <ul id="completed-tasks">
         <li class="list__item">
-          <input class="input input_checkbox" type="checkbox" checked>
-          <label class="task completed-tasks__label list__label">
-            See the Doctor
-          </label>
-          <input type="text" class="task input input_text list-input_text">
-          <button class="edit button">
-            Edit
-          </button>
-          <button class="delete button">
-            <img class="button_delete" src="./remove.svg">
-          </button>
+          <form class="todo-list-item-form">
+            <input class="input input_checkbox" type="checkbox" checked>
+            <label class="task completed-tasks__label list__label">
+              See the Doctor
+            </label>
+            <input type="text" class="task input input_text list-input_text">
+            <button class="edit button">
+              Edit
+            </button>
+            <button class="delete button">
+              <img class="button_delete" src="./remove.svg">
+            </button>
+          </form>
         </li>
       </ul>
     </section>

@@ -1,5 +1,5 @@
 /* Basic Style */
-body {
+.page {
   background-color: #f8f8f8;
   color: #333;
   font-family: Lato, sans-serif;
@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.aaa img {
+.description__image {
   width: 100%;
 }
 .aaa .more_inf {
@@ -35,17 +35,37 @@ body {
 .task-row-wrapper {
   display: flex;
 }
-ul {
+.list {
   margin:0;
   padding: 0px;
 }
-li, h3 {
+.list__item {
   list-style:none;
+  overflow: hidden;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
 }
-input,button{
+
+.list__label {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.list-input_text {
+  width: 226px;
+}
+
+.input {
   outline:none;
 }
-button {
+
+.button {
   background: none;
   border: 0px;
   color: #888;
@@ -53,13 +73,13 @@ button {
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
+  outline:none;
 }
-button:hover {
+.button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-h3,
-label[for="new-task"] {
+.topic {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -68,7 +88,8 @@ label[for="new-task"] {
   margin: 0;
   text-transform: uppercase;
 }
-input[type="text"] {
+
+.input_text {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -80,55 +101,36 @@ input[type="text"] {
   font-family: Lato, sans-serif;
   color: #888;
 }
-input[type="text"]:focus {
+.input_text:focus {
   color: #333;
 }
 
+.input_checkbox {
+  margin: 0 10px;
+}
+
 /* New Task */
-label[for="new-task"] {
+.add-option__label {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+.add-option__input {
   width: 318px;
 }
 
 /* Task list */
-li {
-  overflow: hidden;
-  padding: 20px 0;
-  border-bottom: 1px solid #eee;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-li > * {
-  vertical-align: middle;
-}
 
-li > input[type="checkbox"] {
-  margin: 0 10px;
-}
-li > label {
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
-  width: 226px;
-}
-li >    input[type="text"] {
-  width: 226px
-}
-button.delete img {
+.button_delete {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.button_delete:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed-tasks label {
+.completed-tasks__label {
   text-decoration: line-through
   color: #888;
 }

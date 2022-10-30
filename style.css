@@ -80,7 +80,8 @@
   transition: transform 200ms ease-in;
 }
 
-.button_delete:hover {
+.button_delete:hover,
+.button_delete:focus {
   transform: rotateZ(0);
 }
 

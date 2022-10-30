@@ -96,6 +96,8 @@
 }
 .header__link {
   font-family: fantasy, cursive;
+  margin: 0;
+  line-height: ;
 }
 
 @media (max-width:768px) {
@@ -112,6 +114,9 @@
 }
 
 /* Main -Add */
+.add-section {
+  margin: 16px 0 16px;
+}
 .add-section__header {
   display: block;
   margin: 0 0 20px;
@@ -124,13 +129,19 @@
 }
 
 /* Main-Todo */
-
+.list-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+}
 
 .list-form__label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
+  flex-grow: 1;
 }
 
 .list-form__input_text{
@@ -139,6 +150,11 @@
 }
 
 /* Completed */
+.completed-list {
+  margin: 0;
+  padding-left: 0px;
+ }
+
 .list-form__label_complete {
   text-decoration: line-through
   color: #888;

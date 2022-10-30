@@ -16,12 +16,12 @@
 }
 
 .list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .list__item {
-  list-style:none;
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -43,7 +43,7 @@
   border-radius: 6px;
   font-family: Lato, sans-serif;
   color: #888;
-  outline:none;
+  outline: none;
 }
 .input-text:focus {
   color: #333;
@@ -51,7 +51,7 @@
 
 .input-checkbox {
   margin: 0 10px;
-  outline:none;
+  outline: none;
 }
 .task {
   width: 56%;
@@ -68,7 +68,7 @@
   width: 60px;
   font-family: Lato, sans-serif;
   cursor: pointer;
-  outline:none;
+  outline: none;
 }
 .button:hover {
   color: #3a3a3a;
@@ -105,7 +105,7 @@
   .header {
     text-align: center;
   }
-  
+
 }
 
 /* Main */
@@ -148,7 +148,7 @@
 
 .list-form__input_text{
   width: 226px;
-  display:none
+  display: none
 }
 
 /* Completed */
@@ -165,10 +165,10 @@
 /* Edit Task */
 
 .list-form__input_edit {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .list-form__label_edit {
-  display:none;
+  display: none;
 }

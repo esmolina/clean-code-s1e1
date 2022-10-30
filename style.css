@@ -56,7 +56,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 /* Buttons */
@@ -148,7 +148,7 @@
 
 .list-form__input_text{
   width: 226px;
-  display: none
+  display: none;
 }
 
 /* Completed */
@@ -158,7 +158,7 @@
  }
 
 .list-form__label_complete {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
@@ -166,7 +166,7 @@
 
 .list-form__input_edit {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .list-form__label_edit {

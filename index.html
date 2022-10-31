@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Todo App</title>
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
+
 <body class="page">
   <header class="header">
     <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower-matrix">
@@ -34,9 +36,7 @@
       <ul id="incompletedTasks" class="list">
         <li class="list__item list-form">
           <input class="input-checkbox" type="checkbox">
-          <label class="task list-form__label">
-            Pay Bills
-          </label>
+          <label class="task list-form__label">Pay Bills</label>
           <input type="text" class="task input-text list-form__input_text">
           <button class="button list-form__button_edit">
             Edit
@@ -51,7 +51,7 @@
             Go Shopping
           </label>
           <input type="text" value="Go Shopping" class="task input-text list-form__input_text list-form__input_edit">
-          <button class="edit button">
+          <button class="button list-form__button_edit">
             Save
           </button>
           <button class="button list-form__button_delete">
@@ -67,8 +67,7 @@
       <ul id="completedTasks" class="completed-list">
         <li class="list__item list-form list-form_comlplete">
           <input class="input-checkbox" type="checkbox" checked>
-          <label class="task list-form__label list-form__label_complete">
-            See the Doctor
+          <label class="task list-form__label list-form__label_complete">See the Doctor
           </label>
           <input type="text" class="task input-text list-form__input_text">
           <button class="button list-form__button_edit">
@@ -84,4 +83,5 @@
   <script src="app.js"></script>
   <script src="testing.js"></script>
 </body>
+
 </html>

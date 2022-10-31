@@ -3,26 +3,45 @@
 
 <head>
   <title>Todo App</title>
-  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
+  <link 
+    href="https://fonts.googleapis.com/css?family=Lato:300,400,700" 
+    rel="stylesheet">
+  <link 
+    rel="stylesheet" 
+    href="style.css" 
+    media="screen" 
+    charset="utf-8">
 </head>
 
 <body class="page">
   <header class="header">
-    <img class="header__image" src="./eisenhower-matrix.jpg" alt="Eisenhower-matrix">
-    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">
+    <img 
+      class="header__image" 
+      src="./eisenhower-matrix.jpg" 
+      alt="Eisenhower-matrix">
+    <a 
+      class="header__link" 
+      href="https://goal-life.com/page/method/matrix-eisenhower">
       Want more details?
     </a>
   </header>
   <main class="main">
-    <section id="sectionAdd" class="add-section">
+    <section 
+      id="sectionAdd" 
+      class="add-section">
       <h3 class="add-section__header topic">
         Add Item
       </h3>
       <form class="add-form">
         <label class="add-form__label">
-          <input id="newTask" class="add-form__input task input-text" type="text" autocomplete="off">
-          <button class="button" type="button">
+          <input 
+            id="newTask" 
+            class="add-form__input task input-text" 
+            type="text" 
+            autocomplete="off">
+          <button 
+            class="button" 
+            type="button">
             Add
           </button>
         </label>
@@ -33,29 +52,44 @@
       <h3 class="topic">
         Todo
       </h3>
-      <ul id="incompletedTasks" class="list">
+      <ul 
+        id="incompletedTasks" 
+        class="list">
         <li class="list__item list-form">
-          <input class="input-checkbox" type="checkbox">
+          <input 
+            class="input-checkbox" 
+            type="checkbox">
           <label class="task list-form__label">Pay Bills</label>
-          <input type="text" class="task input-text list-form__input_text">
+          <input 
+            type="text" 
+            class="task input-text list-form__input_text">
           <button class="button list-form__button_edit">
             Edit
           </button>
           <button class="button list-form__button_delete">
-            <img class="button_delete" src="./remove.svg" alt="Close-icon">
+            <img 
+              class="button_delete" 
+              src="./remove.svg" 
+              alt="Close-icon">
           </button>
         </li>
         <li class="list__item list-form list-form_edit-mode">
-          <input class="input-checkbox " type="checkbox">
-          <label class="list-form__label list-form__label_edit task">
-            Go Shopping
-          </label>
-          <input type="text" value="Go Shopping" class="task input-text list-form__input_text list-form__input_edit">
+          <input 
+            class="input-checkbox " 
+            type="checkbox">
+          <label class="list-form__label list-form__label_edit task">Go Shopping</label>
+          <input 
+            type="text" 
+            value="Go Shopping" 
+            class="task input-text list-form__input_text list-form__input_edit">
           <button class="button list-form__button_edit">
             Save
           </button>
           <button class="button list-form__button_delete">
-            <img class="button_delete" src="./remove.svg" alt="Close-icon">
+            <img 
+              class="button_delete" 
+              src="./remove.svg" 
+              alt="Close-icon">
           </button>
         </li>
       </ul>
@@ -64,17 +98,27 @@
       <h3 class="topic">
         Completed
       </h3>
-      <ul id="completedTasks" class="completed-list">
+      <ul 
+        id="completedTasks" 
+        class="completed-list">
         <li class="list__item list-form list-form_comlplete">
-          <input class="input-checkbox" type="checkbox" checked>
+          <input 
+            class="input-checkbox" 
+            type="checkbox" 
+            checked>
           <label class="task list-form__label list-form__label_complete">See the Doctor
           </label>
-          <input type="text" class="task input-text list-form__input_text">
+          <input 
+            type="text" 
+            class="task input-text list-form__input_text">
           <button class="button list-form__button_edit">
             Edit
           </button>
           <button class="button list-form__button_delete">
-            <img class="button_delete" src="./remove.svg" alt="Close-icon">
+            <img 
+              class="button_delete" 
+              src="./remove.svg" 
+              alt="Close-icon">
           </button>
         </li>
       </ul>
@@ -83,5 +127,4 @@
   <script src="app.js"></script>
   <script src="testing.js"></script>
 </body>
-
 </html>
